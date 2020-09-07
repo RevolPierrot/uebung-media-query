@@ -24,7 +24,7 @@ body {
 .card img {
   width: 100%;
   display: block;
-}
+  }
 
 .card h1 {
   background: #fff;
@@ -33,4 +33,11 @@ body {
 
 .row {
   display: block;
+}
+
+/*...Media Query: folgende Anweisung greift also nur für die spezifi. Geräte (z.B. hier min. Weite 1200px):*/
+@media (min-width: 1200px) {
+.row{
+  display: flex;
+  }
 }
